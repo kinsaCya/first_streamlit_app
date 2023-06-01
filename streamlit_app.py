@@ -39,7 +39,7 @@ try:
       
       
       #streamlit.write('The user entered ', fruit_choice) <--delete
-exept URLError as e:
+except URLError as e:
     streamlit.error()
 
 
